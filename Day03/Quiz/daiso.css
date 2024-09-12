@@ -1,0 +1,68 @@
+.box {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.title {
+  font-size: 40px;
+  font-weight: bold;
+  gap: 10px;
+  margin-bottom: 10px;
+}
+.t5 {
+  color: gainsboro;
+}
+.t1 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.thing {
+  width: 300px;
+  height: 400px;
+}
+
+.thing > img {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+}
+
+.bag {
+  position: relative;
+  bottom: 100px;
+  left: 220px;
+  font-size: 40px;
+  color: white;
+  background-color: red;
+  width: 70px;
+  height: 70px;
+  border-radius: 9999px;
+  display: flex;
+
+  justify-content: center;
+  align-items: center;
+}
+
+.price {
+  font-weight: bold;
+  font-size: 30px;
+}
+.t2 {
+  font-size: 20px;
+  font-weight: bold;
+}
+.t3 {
+  font-size: 15px;
+  color: gainsboro;
+}
+.t4 {
+  border: 1px solid red;
+  border-radius: 5px;
+  width: 70px;
+  height: 30px;
+  font-size: 19px;
+  color: red;
+  background-color: white;
+}
