@@ -40,9 +40,9 @@
 }
 
 .bag {
-  position: absolute;
-  right: 10px;
-  bottom: 10px;
+  position: relative;
+  right: -140px;
+  bottom: 60px;
   color: white;
   background-color: #d70001;
   width: 50px;
